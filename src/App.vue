@@ -120,7 +120,7 @@ const skills = [
           </div>
           <span class="timeline-marker" aria-hidden="true"></span>
         </article>
-        <p class="add-entry"><span aria-hidden="true">＋</span> Podes adicionar aqui outras formações e certificações.</p>
+
       </section>
 
       <section v-else-if="activePage === 'experiencia'" id="experiencia" class="content-section experience-section">
@@ -155,7 +155,7 @@ const skills = [
             <p>{{ skill.level }}</p>
           </article>
         </div>
-        <p class="skills-hint">As competências e respetivos níveis devem ser confirmados antes da submissão.</p>
+
       </section>
 
       <section v-else-if="activePage === 'interesses'" id="interesses" class="interests-section">
